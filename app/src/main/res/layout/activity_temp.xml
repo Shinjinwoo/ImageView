@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/fahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="화씨" />
+
+        <RadioButton
+            android:id="@+id/celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="섭씨" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicked"
+        android:text="변환" />
+
+</LinearLayout>

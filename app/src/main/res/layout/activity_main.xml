@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.imageview.VolumeControlView
+        android:id = "@+id/volume"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_gravity="center"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="380dp"
+        android:layout_height="47dp"
+        android:layout_below="@id/volume"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="36dp" />
+</LinearLayout>

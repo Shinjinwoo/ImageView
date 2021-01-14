@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TableRow>
+        <TextView android:text="주소"/>
+        <EditText android:text="서울시 종로구 120"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="이름"/>
+        <EditText android:text="홍길동"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="저장"/>
+        <EditText android:text="취소"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="저장" />
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소" />
+    </TableRow>
+</TableLayout>
