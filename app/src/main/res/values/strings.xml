@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GeoQuiz</string>
+    <string name="app_name"> 전화 걸기</string>
 
     <string name="true_button">True</string>
     <string name="false_button">False</string>
@@ -12,5 +12,27 @@
     <string name="question_americas">아마존강은 아메리카 대륙에서 가장 긴 강이다.</string>
     <string name="question_asia">바이칼 호수는 세계에서 가장 오래되고
         가장 깊은 담수호이다.</string>
+    <string name="warning_text">정말로 답을 보겠습니까?</string>
+    <string name="show_answer_button">정답 보기</string>
+    <string name="cheat_button">커닝하기!</string>
+    <string name="judgment_toast">커닝은 나쁜짓이죠.</string>
+
+
+    <string name="title01">Starry Night</string>
+    <string name="artist01">고흐</string>
+    <string name="picture01">starry_night</string>
+
+    <string name="title02">Still Life with Kettle</string>
+    <string name="artist02">폴 세잔</string>
+    <string name="picture02">still_life_with_kettle</string>
+
+    <string name="name01">장발장</string>
+    <string name="addr01">서울</string>
+    <string name="tel01">010-1234-0001</string>
+
+    <string name="name02">코제트</string>
+    <string name="addr02">부산</string>
+    <string name="tel02">010-1234-0002</string>
+
 
 </resources>
