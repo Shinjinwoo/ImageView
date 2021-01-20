@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name"> 전화 걸기</string>
 
     <string name="true_button">True</string>
     <string name="false_button">False</string>
@@ -33,6 +32,46 @@
     <string name="name02">코제트</string>
     <string name="addr02">부산</string>
     <string name="tel02">010-1234-0002</string>
+
+
+    <string name="title1">학교종 </string>
+    <string name="artist1">김메리</string>
+    <string name="time1">00:00:19</string>
+    <string name="audio1">schoolbell</string>
+    <string name="song_image1">img_schoolbell</string>
+    <string name="lyrics1">
+        학교종이 땡땡땡 \n 어서 모이자 \n
+        선생님이 우리를 \n 기다리신다.
+    </string>
+
+    <string name="title2">코끼리아저씨</string>
+    <string name="artist2">강소현/박태현</string>
+    <string name="time2">00:00:16</string>
+    <string name="audio2">elephant</string>
+    <string name="song_image2">img_elephant</string>
+    <string name="lyrics2">
+    코끼리 아저씨는\n코가 손이래\n
+    과자를 주면은\n코로 받지요
+    </string>
+
+
+    <string name="title3">산토끼</string>
+    <string name="artist3">이일래</string>
+    <string name="time3">00:00:16</string>
+    <string name="audio3">hare</string>
+    <string name="song_image3">img_hare</string>
+    <string name="lyrics3">
+    산토끼 토끼야\n어디를 가느냐\n
+    깡총깡총 뛰면서\n어디를 가느냐
+    </string>
+
+    <string name="app_name">Myalbum</string>
+
+    <string name="photo1">photo1</string>
+    <string name="photo2">photo2</string>
+    <string name="photo3">photo3</string>
+    <string name="photo4">photo4</string>
+    <string name="todo">TODO</string>
 
 
 </resources>
