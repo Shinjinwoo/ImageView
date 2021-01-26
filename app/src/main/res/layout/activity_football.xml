@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FrameLayout1"
+    android:background="@drawable/soccer"
+    tools:context=".January20.FootballActivity">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/FootballButton"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="100dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="myListener"
+            android:text="Introduction" />
+
+        <Button
+            android:id="@+id/FootballButton2"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="150dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="myListener1"
+            android:text="Settings" />
+
+        <Button
+            android:id="@+id/FootballButton3"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="200dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="myListener2"
+            android:text="Start" />
+
+
+
+    </AbsoluteLayout>
+</FrameLayout>

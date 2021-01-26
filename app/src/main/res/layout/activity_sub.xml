@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".January20.SubActivity">
+
+    <Button
+        android:id="@+id/SubButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="서브 액티비티로부터 문자열 반환하기" />
+
+    <TextView
+        android:id="@+id/SubTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반환된 문자열" />
+
+    <TextView
+        android:id="@+id/SubTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="_____________________" />
+
+</LinearLayout>

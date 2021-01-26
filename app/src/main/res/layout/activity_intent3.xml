@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".January20.Intent3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="여기는 액티비티1 입니다."/>
+
+    <Button
+        android:id="@+id/IntentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지 표시 액티비티 열기"/>
+
+</LinearLayout>

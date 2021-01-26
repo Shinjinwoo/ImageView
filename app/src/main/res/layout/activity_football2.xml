@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/soccer2"
+    android:orientation="vertical"
+    tools:context=".January20.Football2Activity">
+
+    <TextView
+        android:id="@+id/FootballTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Association football, commonly known as football or soccer, is a sport played between two teams
+                      of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making
+                      it the worlds most popular sport.[1][2][3][4] The game is played on a rectangular field with a goal
+                      at each end. The object of the game is to score by using any part of the body besides the arms and hands
+                      to get the football into the opposing goal."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
