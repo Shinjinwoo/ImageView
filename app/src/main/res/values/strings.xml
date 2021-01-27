@@ -65,7 +65,6 @@
     깡총깡총 뛰면서\n어디를 가느냐
     </string>
 
-    <string name="app_name">Myalbum</string>
 
     <string name="photo1">photo1</string>
     <string name="photo2">photo2</string>
@@ -77,5 +76,14 @@
     <string name="Video">분수대</string>
     <string name="place1">예술의 전당</string>
     <string name="Videotime"> 10:00</string>
+
+    <string name="sensor_gravity">중력</string>
+    <string name="sensor_accelerometer">가속도</string>
+    <string name="sensor_linear_acceleration">직선 가속도</string>
+    <string name="sensor_gyroscope">자이로스코프</string>
+
+    <string name="app_name">환경 센서</string>
+    <string name="sensor_ambient_pressure">압력</string>
+    <string name="sensor_illuminance">조도</string>
 
 </resources>
